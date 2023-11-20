@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingTop="16dp"
+    android:paddingRight="16dp"
+    android:paddingBottom="16dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/deviceNameTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Device Name: " />
+
+    <TextView
+        android:id="@+id/osVersionTextView"
+        android:layout_below="@id/deviceNameTextView"
+        android:layout_marginTop="16dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="OS Version: " />
+
+    <TextView
+        android:id="@+id/ramTextView"
+        android:layout_below="@id/osVersionTextView"
+        android:layout_marginTop="16dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="RAM: " />
+
+    <TextView
+        android:id="@+id/storageTextView"
+        android:layout_below="@id/ramTextView"
+        android:layout_marginTop="16dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Storage: " />
+
+    <TextView
+        android:id="@+id/sdCardTextView"
+        android:layout_below="@id/storageTextView"
+        android:layout_marginTop="16dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SD Card: " />
+
+</RelativeLayout>
